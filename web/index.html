@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="scaffolded-by" content="https://github.com/dart-lang/stagehand">
+    <title>Stock Overflow</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="main.dart.js"></script>
+</head>
+
+<body>
+    <div id = "main">
+        <div class = "container" id = "start">
+            <h1 id = "title">Stock Overflow</h1>
+            <h4 id = "subtitle">A web application developed by Lyubomir Todorov</h4>
+
+            <input type = "text" id = "symbol">
+            <p id = "error"></p>
+            <input type = "button" value="Search" id = "search" class = "clickable">
+
+            <p id = "output"> </p>
+        </div>
+
+        <div class = "container" id = "financial-overview">
+            <div id = "profile">
+                <h1 id = "name"></h1>
+                <h4 id = "exchange"></h4>
+                <img src = "" id = "logo" alt = "">
+            </div>
+
+            <div id = "financial">
+                <h1 id = "percentage"></h1>
+                <h4 id = "priceCurrent"></h4>
+                <h4 id = "priceOpen"></h4>
+            </div>
+        </div>
+
+        <div class = "container" id = "graph-overview">
+            <div id = "graph"></div>
+        </div>
+
+        <div class = "container" id = "similar-overview">
+            <h1 id = "peer-title">Stocks similar to this one</h1>
+        </div>
+
+        <div class = "container" id = "news-overview">
+            <h1 id = "news-title">Articles</h1>
+        </div>
+
+
+        <p id = "debug"></p>
+    </div>
+
+</body>
+</html>

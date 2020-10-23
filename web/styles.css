@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+
+/* Display quote content underneath on mobile */
+@media (min-width: 775px) {
+  #financial {
+    display: inline-block;
+    float:right;
+  }
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: Cabin, sans-serif;
+}
+
+h4 {
+  font-family: Inter, sans-serif;
+}
+
+body {
+  color: #FEF9EF;
+  background-color: #212738;
+}
+
+canvas {
+  width: auto;
+  max-width: 100%;
+  height: 25em;
+}
+
+.container {
+  height: auto;
+  margin: 5em 12vw 3em;
+  padding: 3vw;
+
+  background-color: #4B4E6D;
+  border-radius: 0.75em;
+
+  opacity: 1;
+  transition: all 0.15s ease;
+}
+
+#subtitle {
+  margin-top: -1em;
+}
+
+#symbol {
+  width: 10em;
+  height: 3em;
+
+  border-radius: 5em;
+  border: none;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#error {
+  padding-left: 0.5em;
+  margin: 0;
+
+  display: inline-block;
+  color: red;
+}
+
+.clickable {
+  width: 100%;
+  height: 3em;
+
+  font-family: 'Inter', serif;
+  font-size: 13px;
+
+  background-color: #06f;
+  color: #fff;
+
+  transition: all 0.15s ease;
+
+  border: none;
+  border-radius: 1em;
+  margin-top: 2em;
+}
+
+.clickable:hover {
+  background-color: #005ce6;
+
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+#profile, #financial {
+  height: auto;
+}
+
+#profile {
+  display: inline-block;
+}
+
+#financial {
+  text-align: right;
+}
+
+#logo {
+  width: 128px;
+  height: auto;
+  text-align: center;
+}
+
+#financial-overview, #graph-overview, #similar-overview, #news-overview {
+  opacity: 0;
+}
+
+#financial-overview {
+  min-height: 10em;
+}
+
+#peer {
+
+  width: 6em;
+  height: 2em;
+
+  text-decoration: none;
+  text-align: center;
+
+  padding-top: 1em;
+
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+
+  display: inline-block;
+}
+
+.article {
+  text-decoration: none;
+  color: #FEF9EF;
+  margin-bottom: 5em;
+  opacity: 0.8;
+  transition: opacity 0.1s ease-out;
+}
+
+.article:hover {
+  opacity: 1;
+  transition: opacity 0.1s ease-in;
+}
