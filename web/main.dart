@@ -5,6 +5,8 @@ import 'dart:async';
 import 'package:http/http.dart' as http;
 import 'package:modern_charts/modern_charts.dart';
 
+//Key obtained from the following API service:
+//https://finnhub.io/
 const key = '';
 
 
